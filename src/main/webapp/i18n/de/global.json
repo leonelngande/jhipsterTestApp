@@ -15,6 +15,9 @@
                 "employee": "Employee",
                 "job": "Job",
                 "jobHistory": "Job History",
+                "blog": "Blog",
+                "entry": "Entry",
+                "tag": "Tag",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
