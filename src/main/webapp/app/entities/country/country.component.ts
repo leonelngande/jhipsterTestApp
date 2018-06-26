@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { CountryService } from './country.service';
 
 @Component({
-    selector: '-country',
+    selector: 'jhi-country',
     templateUrl: './country.component.html'
 })
 export class CountryComponent implements OnInit, OnDestroy {

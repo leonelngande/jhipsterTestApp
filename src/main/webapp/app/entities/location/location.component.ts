@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { LocationService } from './location.service';
 
 @Component({
-    selector: '-location',
+    selector: 'jhi-location',
     templateUrl: './location.component.html'
 })
 export class LocationComponent implements OnInit, OnDestroy {

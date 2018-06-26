@@ -8,7 +8,7 @@ import { ICountry } from 'app/shared/model/country.model';
 import { CountryService } from './country.service';
 
 @Component({
-    selector: '-country-delete-dialog',
+    selector: 'jhi-country-delete-dialog',
     templateUrl: './country-delete-dialog.component.html'
 })
 export class CountryDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class CountryDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-country-delete-popup',
+    selector: 'jhi-country-delete-popup',
     template: ''
 })
 export class CountryDeletePopupComponent implements OnInit, OnDestroy {

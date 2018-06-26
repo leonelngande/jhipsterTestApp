@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ITask } from 'app/shared/model/task.model';
 
 @Component({
-    selector: '-task-detail',
+    selector: 'jhi-task-detail',
     templateUrl: './task-detail.component.html'
 })
 export class TaskDetailComponent implements OnInit {

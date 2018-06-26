@@ -8,7 +8,7 @@ import { IEmployee } from 'app/shared/model/employee.model';
 import { EmployeeService } from './employee.service';
 
 @Component({
-    selector: '-employee-delete-dialog',
+    selector: 'jhi-employee-delete-dialog',
     templateUrl: './employee-delete-dialog.component.html'
 })
 export class EmployeeDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class EmployeeDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-employee-delete-popup',
+    selector: 'jhi-employee-delete-popup',
     template: ''
 })
 export class EmployeeDeletePopupComponent implements OnInit, OnDestroy {

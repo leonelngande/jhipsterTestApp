@@ -7,7 +7,7 @@ import { IRegion } from 'app/shared/model/region.model';
 import { RegionService } from './region.service';
 
 @Component({
-    selector: '-region-update',
+    selector: 'jhi-region-update',
     templateUrl: './region-update.component.html'
 })
 export class RegionUpdateComponent implements OnInit {

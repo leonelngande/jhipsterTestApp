@@ -8,7 +8,7 @@ import { IDepartment } from 'app/shared/model/department.model';
 import { DepartmentService } from './department.service';
 
 @Component({
-    selector: '-department-delete-dialog',
+    selector: 'jhi-department-delete-dialog',
     templateUrl: './department-delete-dialog.component.html'
 })
 export class DepartmentDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class DepartmentDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-department-delete-popup',
+    selector: 'jhi-department-delete-popup',
     template: ''
 })
 export class DepartmentDeletePopupComponent implements OnInit, OnDestroy {

@@ -3,7 +3,7 @@
         <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
             <h2 id="-employee-heading" jhiTranslate="jhipsterTestApp.employee.home.createOrEditLabel">Create or edit a Employee</h2>
             <div>
-                <-alert-error></-alert-error>
+                <alert-error></alert-error>
                 <div class="form-group" [hidden]="!employee.id">
                     <label for="id" jhiTranslate="global.field.id">ID</label>
                     <input type="text" class="form-control" id="id" name="id"

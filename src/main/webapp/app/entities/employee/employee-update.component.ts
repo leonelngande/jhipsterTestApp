@@ -12,7 +12,7 @@ import { IDepartment } from 'app/shared/model/department.model';
 import { DepartmentService } from 'app/entities/department';
 
 @Component({
-    selector: '-employee-update',
+    selector: 'jhi-employee-update',
     templateUrl: './employee-update.component.html'
 })
 export class EmployeeUpdateComponent implements OnInit {

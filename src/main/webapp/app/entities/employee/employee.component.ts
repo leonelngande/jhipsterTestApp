@@ -10,7 +10,7 @@ import { ITEMS_PER_PAGE } from 'app/shared';
 import { EmployeeService } from './employee.service';
 
 @Component({
-    selector: '-employee',
+    selector: 'jhi-employee',
     templateUrl: './employee.component.html'
 })
 export class EmployeeComponent implements OnInit, OnDestroy {

@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IJobHistory } from 'app/shared/model/job-history.model';
 
 @Component({
-    selector: '-job-history-detail',
+    selector: 'jhi-job-history-detail',
     templateUrl: './job-history-detail.component.html'
 })
 export class JobHistoryDetailComponent implements OnInit {

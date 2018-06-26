@@ -8,7 +8,7 @@ import { IJobHistory } from 'app/shared/model/job-history.model';
 import { JobHistoryService } from './job-history.service';
 
 @Component({
-    selector: '-job-history-delete-dialog',
+    selector: 'jhi-job-history-delete-dialog',
     templateUrl: './job-history-delete-dialog.component.html'
 })
 export class JobHistoryDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class JobHistoryDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-job-history-delete-popup',
+    selector: 'jhi-job-history-delete-popup',
     template: ''
 })
 export class JobHistoryDeletePopupComponent implements OnInit, OnDestroy {

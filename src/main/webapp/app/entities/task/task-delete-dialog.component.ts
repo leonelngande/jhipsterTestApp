@@ -8,7 +8,7 @@ import { ITask } from 'app/shared/model/task.model';
 import { TaskService } from './task.service';
 
 @Component({
-    selector: '-task-delete-dialog',
+    selector: 'jhi-task-delete-dialog',
     templateUrl: './task-delete-dialog.component.html'
 })
 export class TaskDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class TaskDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-task-delete-popup',
+    selector: 'jhi-task-delete-popup',
     template: ''
 })
 export class TaskDeletePopupComponent implements OnInit, OnDestroy {

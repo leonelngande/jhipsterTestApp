@@ -12,7 +12,7 @@ import { ITask } from 'app/shared/model/task.model';
 import { TaskService } from 'app/entities/task';
 
 @Component({
-    selector: '-job-update',
+    selector: 'jhi-job-update',
     templateUrl: './job-update.component.html'
 })
 export class JobUpdateComponent implements OnInit {

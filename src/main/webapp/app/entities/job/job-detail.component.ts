@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IJob } from 'app/shared/model/job.model';
 
 @Component({
-    selector: '-job-detail',
+    selector: 'jhi-job-detail',
     templateUrl: './job-detail.component.html'
 })
 export class JobDetailComponent implements OnInit {

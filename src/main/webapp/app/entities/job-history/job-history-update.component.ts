@@ -16,7 +16,7 @@ import { IEmployee } from 'app/shared/model/employee.model';
 import { EmployeeService } from 'app/entities/employee';
 
 @Component({
-    selector: '-job-history-update',
+    selector: 'jhi-job-history-update',
     templateUrl: './job-history-update.component.html'
 })
 export class JobHistoryUpdateComponent implements OnInit {

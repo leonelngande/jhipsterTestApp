@@ -8,7 +8,7 @@ import { IRegion } from 'app/shared/model/region.model';
 import { RegionService } from './region.service';
 
 @Component({
-    selector: '-region-delete-dialog',
+    selector: 'jhi-region-delete-dialog',
     templateUrl: './region-delete-dialog.component.html'
 })
 export class RegionDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class RegionDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-region-delete-popup',
+    selector: 'jhi-region-delete-popup',
     template: ''
 })
 export class RegionDeletePopupComponent implements OnInit, OnDestroy {

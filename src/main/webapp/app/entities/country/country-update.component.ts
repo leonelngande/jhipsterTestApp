@@ -10,7 +10,7 @@ import { IRegion } from 'app/shared/model/region.model';
 import { RegionService } from 'app/entities/region';
 
 @Component({
-    selector: '-country-update',
+    selector: 'jhi-update',
     templateUrl: './country-update.component.html'
 })
 export class CountryUpdateComponent implements OnInit {

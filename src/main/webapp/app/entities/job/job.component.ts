@@ -11,7 +11,7 @@ import { ITEMS_PER_PAGE } from 'app/shared';
 import { JobService } from './job.service';
 
 @Component({
-    selector: '-job',
+    selector: 'jhi-job',
     templateUrl: './job.component.html'
 })
 export class JobComponent implements OnInit, OnDestroy {

@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IDepartment } from 'app/shared/model/department.model';
 
 @Component({
-    selector: '-department-detail',
+    selector: 'jhi-department-detail',
     templateUrl: './department-detail.component.html'
 })
 export class DepartmentDetailComponent implements OnInit {

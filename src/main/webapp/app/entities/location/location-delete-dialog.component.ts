@@ -8,7 +8,7 @@ import { ILocation } from 'app/shared/model/location.model';
 import { LocationService } from './location.service';
 
 @Component({
-    selector: '-location-delete-dialog',
+    selector: 'jhi-location-delete-dialog',
     templateUrl: './location-delete-dialog.component.html'
 })
 export class LocationDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class LocationDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-location-delete-popup',
+    selector: 'jhi-location-delete-popup',
     template: ''
 })
 export class LocationDeletePopupComponent implements OnInit, OnDestroy {

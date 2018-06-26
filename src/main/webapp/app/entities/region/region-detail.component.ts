@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IRegion } from 'app/shared/model/region.model';
 
 @Component({
-    selector: '-region-detail',
+    selector: 'jhi-region-detail',
     templateUrl: './region-detail.component.html'
 })
 export class RegionDetailComponent implements OnInit {

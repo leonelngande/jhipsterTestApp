@@ -10,7 +10,7 @@ import { ILocation } from 'app/shared/model/location.model';
 import { LocationService } from 'app/entities/location';
 
 @Component({
-    selector: '-department-update',
+    selector: 'jhi-department-update',
     templateUrl: './department-update.component.html'
 })
 export class DepartmentUpdateComponent implements OnInit {

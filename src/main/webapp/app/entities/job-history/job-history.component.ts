@@ -10,7 +10,7 @@ import { ITEMS_PER_PAGE } from 'app/shared';
 import { JobHistoryService } from './job-history.service';
 
 @Component({
-    selector: '-job-history',
+    selector: 'jhi-job-history',
     templateUrl: './job-history.component.html'
 })
 export class JobHistoryComponent implements OnInit, OnDestroy {

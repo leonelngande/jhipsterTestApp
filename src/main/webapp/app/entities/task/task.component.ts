@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { TaskService } from './task.service';
 
 @Component({
-    selector: '-task',
+    selector: 'jhi-task',
     templateUrl: './task.component.html'
 })
 export class TaskComponent implements OnInit, OnDestroy {

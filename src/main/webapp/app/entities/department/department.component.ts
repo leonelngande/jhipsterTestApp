@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { DepartmentService } from './department.service';
 
 @Component({
-    selector: '-department',
+    selector: 'jhi-department',
     templateUrl: './department.component.html'
 })
 export class DepartmentComponent implements OnInit, OnDestroy {

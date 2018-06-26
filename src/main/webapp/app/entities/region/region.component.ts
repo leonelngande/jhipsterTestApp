@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { RegionService } from './region.service';
 
 @Component({
-    selector: '-region',
+    selector: 'jhi-region',
     templateUrl: './region.component.html'
 })
 export class RegionComponent implements OnInit, OnDestroy {
